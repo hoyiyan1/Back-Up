@@ -1,0 +1,169 @@
+{{KU_Leuven}}
+<html>
+	<style type="text/css">
+        .question {
+            -webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.25);
+
+            border-radius: 2px;
+        }
+
+        .question .front {
+            background-color: #cc3333;
+            padding: 10px;
+        }
+
+        .question .front div {
+            display: table;
+            height: 100%;
+        }
+
+        .question .front h3 {
+            color: white;
+            margin: 0;
+            padding: 0;
+
+            font-size: 15px;
+            font-weight: 700;
+            font-style: italic;
+
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .question .back p {
+            padding: 5px;
+            margin: 0;
+        }
+
+        .info>* {
+            margin-bottom: 30px;
+        }
+
+        .info h2 {
+            color: white;
+            display: inline-block;
+            position: relative;
+            width: auto;
+            text-transform: uppercase;
+            background-color: #cc3333;
+            padding: 30px;
+            font-size: 30px;
+        }
+
+        .info .question {
+            margin-left: 100px;
+        }
+
+        .interviews h2 {
+            color: black;
+        }
+        </style>
+        <!--
+        <script type="text/javascript" src="http://2017.igem.org/Template:KU_Leuven/flip?action=raw&ctype=text/javascript"></script>
+        -->
+        <script type="text/javascript" src="http://2017.igem.org/Template:KU_Leuven/popupjs?action=raw&ctype=text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="http://2017.igem.org/Template:KU_Leuven/popupcss?action=raw&ctype=text/css">
+        <div class="team">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Human Practices - Silver</h1>
+                    <p style="text-align:justify" ;>In earlier discussions with specialists, we gained first insights on how our project would influence the treatment of patients. But what do they themselves think of our idea? In order to investigate this, we proposed to invite several patients to discuss our project. However, talking to patients is not something you go over lightly.
+                        </br>
+                        After receiving approval from the ethics committee of the UZ Leuven, we planned the overall course of the interviews in detail. The proposed questions were then reviewed by professor Monbaliu, who has already helped us earlier in the project. By performing patient interviews, we have gained insights in the daily lives of patients and learned of their opinion about HEKcite and the device, which would enable them to check the level of immune suppressants continuously. This information helped us frame the impact of our project, allowed us to adapt the project to patients’ needs and may be interesting for stakeholders in the future. In earlier discussions with specialists, we gained first insights on how our project would influence the treatment of patients. But what do they themselves think of our idea? In order to investigate this, we proposed to invite several patients to discuss our project. However, talking to patients is not something you go over lightly. After receiving approval from the ethics committee of the UZ Leuven, we planned the overall course of the interviews in detail. The proposed questions were then reviewed by professor Monbaliu, who has already helped us earlier in the project. By performing patient interviews, we have gained insights in the daily lives of patients and learned of their opinion about HEKcite and the device, which would enable them to check the level of immune suppressants continuously. This information helped us frame the impact of our project, allowed us to adapt the project to patients’ needs and may be interesting for stakeholders in the future.
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <h2>Patient interviews</h2>
+                    <p>Introduction about our team and an explanation about the iGEM competition.</p>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 1: What is your experience using immune suppressants?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">All participants have the same answer: There is more to organ transplantation than meets the eye. After the surgery, not all problems are solved as you would expect, but new ones arise. Some of these issues are side effects, caused by immune suppressants. Among the most frequent side effects are insomnia, easy bruising and bleeding, a tingling sensation on the skin, infection of the joints, et cetera…</p>
+                        </div>
+                    </div>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 2: Would you like to see a decrease of the amount of blood samples that needs to be drawn?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">Most participants answered that they experience only mild discomfort from drawing blood. This is explained by the fact that blood drawings serve many purposes: When the participants go to medical consultations for blood drawings, the concentration of immune suppressants is just one of many variables analysed. This means that our device would most likely not reduce the total number of hospital sessions and the discomfort of blood drawing. This raises the question whether the device would be helpful for transplant patients. Luckily, this question was answered in the continuation of the interview.</p>
+                        </div>
+                    </div>
+                    <p>After this question, we explained that it is important that blood levels of immune suppressants remain constant. Currently, blood samples are taken every week or in intervals of up to three months, dependent on the amount of time that has passed since the transplantation. Our goal is to develop an easy method that enables patients to test their immune suppressants at home, at any given time. This would lead to a better follow-up, and would allow the doctors to react to unexpected changes in concentration that would otherwise remain undetected. This way, the risk of organ rejection will be reduced.</p>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 3: In which way do you think this device could influence your quality of life?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">Despite the fact that all patients agreed that our project could increase their quality of life, the opinions on how it would affect their lives differed among the patients. Some of them think it would influence their life in a positive way as it could offer them piece of mind. Risk of rejection by the body increases as more time passes, and by then, most patients only visit the doctor once every three months. Therefore, they think the possibility of checking the level of immune suppression on a daily basis would give them comfort and reduce their stress levels, and it would also enable the doctors to react quickly to changes that would otherwise remain undetected for three months. Others shared the opinion that, while our project would not influence their lives directly, they think that our device could be a general advance in the organ transplantation field. When the risk of rejection of an organ could be lowered, this would ease their mind indirectly. Hearing from patients that this device could have an impact on their lives motivated us even further to complete our project successfully.</p>
+                        </div>
+                    </div>
+                    <p>In order to do these daily measurements, a small device would be placed under the skin, containing living, genetically modified cells that respond to the concentration in the blood.</p>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 4: Would you be willing to undergo this procedure if this could lower your risk of rejection? What is your opinion about the device containing genetically modified cells?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">All responses of the patients were positive. They were indeed willing to undergo the procedure if this could lower the risk of rejection of the transplanted organ. A crucial consideration is that the device would be placed during the transplantation process. Most patients were tired of the various medical interventions, and would like to avoid undergoing surgeries that were not strictly necessary, as they inflict a lot of pain and are a cause of frustrations. </p>
+                            <p style="text-align:justify">When asked about the genetically manipulated cells in the device, all patients reacted positively. As long as they are given sufficient information and are made aware of all the consequences and risks that result from the genetic manipulation, they would be willing to use the device.</p>
+                        </div>
+                    </div>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 5: Would you be willing to participate in a clinical study to assess this device during a case in which you do not know if this could lower the risk of rejection?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">The interviewed patients told us they would like to help scientific advances to improve the lives of future transplantation patients. Some of them mention that they have already participated in clinical studies in the past, and indicate that they are open to new developments. Therefore, two of the four patients would be willing to participate if a trusted transplantation doctor, such as professor Monbaliu, supported the study. The other two patients were more hesitant and they would only consider participating in case the risks were minimal and well known.</p>
+                        </div>
+                    </div>
+                    <div class="card question">
+                        <div class="front">
+                            <div>
+                                <h3>Question 6: According to professor Monbaliu, patient compliance is a problem in the organ transplantation field, especially some years after the surgery. The device could alert you when you have not taken your drugs yet by sending out notifications. Do you think this could be a helpful reminder for you when you forget to take your medicine or be helpful for taking your medicine at the same time on a daily basis?</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <p style="text-align:justify">The patients we talked to have received their transplants 2 to 7 years ago. However, they all told us that they have never forgotten to take their drugs, and this is no issue for them. However, the immune suppressants have to be taken at specific time points. The patients admitted that, as more time passed after the organ transplantation, they tended to take their drugs at less specific time points. These inaccuracies occur especially on holidays or special occasions, as it is difficult to take a medicine at the exact same time every day. Therefore, the patients see our device as a useful system, as it could give out a notification on their computer or smartphone.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function() { /* to make sure the script runs after page load */
+        $('.test-popup-link').magnificPopup({
+            type: 'image'
+            // other options
+        });
+        /*
+        $(".card").flip({
+            axis: 'x',
+            trigger: 'hover',
+            speed: 300
+        });
+        */
+
+    });
+    </script>
+
+</html>
+
+{{KU_Leuven_footer}}
