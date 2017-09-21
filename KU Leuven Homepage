@@ -1,0 +1,235 @@
+{{KU_Leuven}}
+
+<html>
+<style type="text/css">
+        p {
+            text-align: justify;
+        }
+
+        .home {
+            position: relative;
+        }
+
+        .home .bg {
+            position: fixed;
+            display: block;
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-image: url(http://2017.igem.org/wiki/images/e/e5/KU_Leuven-home_bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .home .fg {
+            height: 100vh;
+            visibility: hidden;
+        }
+
+        .overlay,
+        footer {
+            background-color: #f2f2f2;
+            opacity: 1;
+            position: relative;
+        }
+
+        .igem_2017_content_wrapper {
+            padding-bottom: 0;
+        }
+
+        .animated_svg {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+
+        .animated_svg>* {
+            max-width: 800px;
+            display: inline-block;
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            margin-left: -40px;
+            width: 80px;
+            height: 80px;
+
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .arrow:hover {
+            background-color: rgba(255, 255, 255, 0.175);
+            cursor: pointer;
+        }
+
+        .arrow img {
+            margin: 15px;
+            width: 50px;
+            height: 50px;
+        }
+        </style>
+        <div class="home">
+            <div data-0="transform:translate(0px, 0px);" data-800="transform:translate(0px, -480px);" class="bg">
+            </div>
+            <div class="fg">
+            </div>
+            <div id="scrolldown" class="arrow">
+                <img src="http://2017.igem.org/wiki/images/0/0f/KU_Leuven-scroll_arrow.png">
+            </div>
+        </div>
+        <div id="overlay" class="overlay" style="border-top: 2px solid #c33">
+            <div class="container">
+                <div class="animated_svg">
+                    <svg height="auto" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 1200 3000">
+                        <image height="3000px" width="1200px" xlink:href="http://2017.igem.org/wiki/images/7/71/KU_Leuven-homepage.svg"></image>
+                         <path style="fill:none;stroke:#cc3333;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8000;stroke-dashoffset:0" data-500-end="stroke-dashoffset:0;" data-200-top="stroke-dashoffset:8000;" d="M1180,0v600h-90l-12.5-37.5l-12.5,75l-12.5-37.5H20v650l180,1.5c57.7-0.2,57.4,98.8,114.5,98.5c56.9,0,56.3-98.8,114.1-99c57.7-0.2,57.4,98.8,114.5,98.5c56.9,0,56.3-98.8,114.1-99c57.7-0.2,57.4,98.8,114.5,98.5c56.9,0,56.3-98.8,114.1-99c57.7-0.2,57.4,100.2,114.2,100h175v100l25,7.5l-50,10l25,7.5v475H600v450l200-100l-200,100l200,100l-200-100l-200,100l200-100l-200-100">
+                        </path>
+                        <a xlink:href="http://2017.igem.org/Team:KU_Leuven/Model">
+                            <rect x="200" y="2100" display="inline" opacity="0" fill="#000000" width="200" height="200" />
+                        </a>
+                        <a xlink:href="#game">
+                            <rect x="800" y="2100" display="inline" opacity="0" fill="#000000" width="200" height="200" />
+                        </a>
+                        <a xlink:href="http://2017.igem.org/Team:KU_Leuven/HP/Gold_Integrated">
+                            <rect x="200" y="2500" display="inline" opacity="0" fill="#000000" width="200" height="200" />
+                        </a>
+                        <a xlink:href="#education">
+                            <rect x="800" y="2500" display="inline" opacity="0" fill="#000000" width="200" height="200" />
+                        </a>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+     $(function() {
+        // initialize skrollr if the window width is large enough
+        if ($(window).width() > 767) {
+            skrollr.init();
+        }
+
+        // disable skrollr if the window is resized below 768px wide
+        $(window).on('resize', function() {
+            if ($(window).width() <= 767) {
+                skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+            }
+        });
+    });
+
+    $('#scrolldown').click(function(event) {
+        event.preventDefault();
+        var n = $('.home .fg').height();
+        $('html, body').animate({ scrollTop: n - 15 }, 1000);
+    });
+    </script>
+			
+</div>
+</div>
+</div>
+<footer>
+        <div class="container" style="margin-bottom:20px;">
+            <ul class="row" id="sponsors">
+                <h1>Sponsors and Partners:</h1>
+                <a href="http://www.vib.be/">
+                    <li class="col-sm-6">
+                        <div><img src="http://2017.igem.org/wiki/images/0/0a/KU_Leuven-sponsor-vib.png" /></div>
+                    </li>
+                </a>
+                <a href="http://kuleuven.be">
+                    <li class="col-sm-6">
+                        <div><img src="http://2017.igem.org/wiki/images/7/72/KU_Leuven-sponsor-kuleuven.png" /></div>
+                    </li>
+                </a>
+                <a href="http://lrd.kuleuven.be/en">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/9/9f/KU_Leuven-sponsor-lrd.png" /></div>
+                    </li>
+                </a>
+                <a href="http://lrd.kuleuven.be/en">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/5/52/Lcie_Logo_KU_Leuven.png" /></div>
+                    </li>
+                </a>
+                <a href="http://www.sigmaaldrich.com">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/2/28/KU_Leuven-sponsor-merck.svg" /></div>
+                    </li>
+                </a>
+                <a href="http://ww.ewi-vlaanderen.be">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/5/53/KU_Leuven-sponsor-vlaanderen.png" /></div>
+                    </li>
+                </a>
+                <a href="http://ww.ewi-vlaanderen.be">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/c/c0/KU_Leuven-sponsor-richtingmorgen.jpg" /></div>
+                    </li>
+                </a>
+                <a href="http://www.janssen.com/us/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/a/ac/KU_Leuven-sponsor-janssen.png" /></div>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="col-sm-3">
+                        <div>Tillion-S.S.T</div>
+                    </li>
+                </a>
+                <a href="http://www.glasatelier-saillart.be/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/3/32/KU_Leuven-sponsor-saillart.png" /></div>
+                    </li>
+                </a>
+                <a href="https://www.fishersci.com/us/en/home.html">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/9/94/KU_Leuven-sponsor-tfs.png" /></div>
+                    </li>
+                </a>
+                <a href="https://www.fishersci.com/us/en/home.html">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/e/e8/KU_Leuven-sponsor-thermo.png" /></div>
+                    </li>
+                </a>
+                <li class="col-sm-3">
+                    <div><img src="http://2017.igem.org/wiki/images/1/17/KU_Leuven-sponsor-kolo.png" /></div>
+                </li>
+                <a href="http://www.filterservice.be/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/1/15/KU_Leuven-sponsor-filterservice.png" /></div>
+                    </li>
+                </a>
+                <a href="http://www.snapgene.com/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/c/c3/KU_Leuven-sponsor-snapgene.png" /></div>
+                    </li>
+                </a>
+                <a href="http://www.leuvenmindgate.be/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/2/27/KU_Leuven-sponsor-mindgate.svg" /></div>
+                    </li>
+                </a>
+                <a href="https://www.eppendorf.com/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/8/8e/KU_Leuven-sponsor-eppendorf.png" /></div>
+                    </li>
+                </a>
+<a href="https://www.agilent.com/">
+                    <li class="col-sm-3">
+                        <div><img src="http://2017.igem.org/wiki/images/e/ec/KU_Leuven-sponsor-agilent.jpg" /></div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="container-fluid social" style="padding: 0px;">
+            <div class="col-md-3" id="facebook"><a href="https://www.facebook.com/KULeuveniGEM" style="padding-right: 0px;"><h2>Facebook</h2><img src="http://2017.igem.org/wiki/images/0/0c/KU_Leuven-facebook.png"></a></div>
+            <div class="col-md-3" id="twitter"><a href="https://twitter.com/kuleuvenigem" style="padding-right: 0px;"><h2>Twitter</h2><img src="http://2017.igem.org/wiki/images/9/99/KU_Leuven-twitter.png"></a></div>
+            <div class="col-md-3" id="youtube"><a href="https://www.youtube.com/channel/UCvIKudANB5NvCR5S8XJn78g" style="padding-right: 0px;"><h2>Youtube</h2><img src="http://2017.igem.org/wiki/images/7/7b/KU_Leuven-youtube.png"></a></div>
+            <div class="col-md-3" id="instagram"><a href="https://www.instagram.com/kuleuvenigem/" style="padding-right: 0px;"><h2>Instagram</h2><img src="http://2017.igem.org/wiki/images/0/07/KU_Leuven-instagram.png"></a></div>
+        </div>
+    </footer>
+</html>
